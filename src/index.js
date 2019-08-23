@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// import Stuff from './javiers-tests/Stuff';
 import App from './App';
+// import HelloWorld from './state-drills/HelloWorld';
+// import Bomb from './state-drills/Bomb';
+// import RouletteGun from './state-drills/RouletteGun';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));

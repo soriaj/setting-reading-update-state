@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component Snapshot Test 01: component renders an empy li when sections prop not supplied. 1`] = `
+<ul
+  className="react_accordion"
+/>
+`;
+
+exports[`Accordion Component Snapshot Test 02: renders no section as active by default. 1`] = `
+<ul
+  className="react_accordion"
+/>
+`;
+
+exports[`Accordion Component Snapshot Test 03: component opens a clicked section. 1`] = `
+<ul
+  className="react_accordion"
+>
+  <li
+    className="list_item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="list_item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="list_item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+    <p>
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component Snapshot Test 04: component opens last section when multiple sections have been clicked. 1`] = `
+<ul
+  className="react_accordion"
+>
+  <li
+    className="list_item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="list_item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+    <p>
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+    </p>
+  </li>
+  <li
+    className="list_item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;

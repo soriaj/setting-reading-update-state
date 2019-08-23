@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Stuff Component Test Render: renders the UI as expected 1`] = `
+<div>
+  <p>
+    Hello my name is Javier Soria null
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Click Here!
+  </button>
+</div>
+`;

@@ -1,0 +1,25 @@
+* {
+   box-sizing: border-box;
+}
+.react_accordion{
+   display: flex;
+   flex-direction: column;
+   line-height:50px;
+}
+.react_accordion > li {
+   list-style: none;
+}
+.list_item{
+   font-weight: 600;
+}
+button {
+   background-color: #269CE9;
+   border-color: #269CE9;
+   border-radius: 5px;
+   padding: 4px 12px;
+   color: white;
+}
+button:hover{
+   background-color: #70B9E8;
+   transform: scale(1.05);
+}
