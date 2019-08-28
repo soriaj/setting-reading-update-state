@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 // import TheDate from './state/TheDate';
 // import Counter from './state/Counter';
 // import Tabs from './state/Tabs';
-import Accordion from './state-drills/Accordion';
+// import Accordion from './state-drills/Accordion';
+import DemonymApp from '../src/demonymapp/demonymApp'
 import './App.css';
 
 
@@ -35,7 +36,8 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Accordion sections={sections}/>
+        <DemonymApp />
+        {/* <Accordion sections={sections}/> */}
         {/* <Tabs tabs={tabsProp}/> */}
         {/* <h1>YOUR APPLICATION NAME!</h1>
         <Messages name='Messages' unread={0} />

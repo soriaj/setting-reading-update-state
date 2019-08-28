@@ -1,0 +1,17 @@
+.demonym_app{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   width: 40%;
+}
+.demonym_app__placeholder{
+   padding: 15px;
+   margin-bottom: 10px;
+}
+.demonym_app__error{
+   color: red;
+   font-weight: 600;
+   padding: 10px;
+}
